@@ -6,15 +6,17 @@ function fetchData(trackingNumber: string) {
 		url: 'https://trackingpackage.p.rapidapi.com/TrackingPackage',
 		params: { trackingNumber: trackingNumber },
 		headers: {
-			Authorization: 'Basic Ym9sZGNoYXQ6TGZYfm0zY2d1QzkuKz9SLw==',
-			'X-RapidAPI-Key': 'f742d7282cmsh785411af2113d5cp1f399ejsn18096aa0558a',
-			'X-RapidAPI-Host': 'trackingpackage.p.rapidapi.com',
+			Authorization: process.env.REACT_APP_AUTHORIZATION_API_KEY,
+			'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+			'X-RapidAPI-Host': process.env.REACT_APP_RAPID_API_HOST,
 		},
 	};
+    console.log(process.env);
 
 	axios
 		.request(options)
 		.then(function (response) {
+            console.log(response.data);
 			return response.data;
 		})
 		.catch(function (error) {
