@@ -1,8 +1,9 @@
 import TextField from '@mui/material/TextField';
 import { ChangeEventHandler, KeyboardEventHandler } from 'react';
+import fetchData from '../../API/api';
 
 function InputBar() {
-	let trackingNumber: string | null = null;
+	let trackingNumber: string;
 
 	const handleInput: ChangeEventHandler<
 		HTMLTextAreaElement | HTMLInputElement
@@ -12,7 +13,8 @@ function InputBar() {
 
 	const handleClick: KeyboardEventHandler<HTMLInputElement> = (e) => {
 		if (e.key === 'Enter') {
-			alert(trackingNumber);
+			fetchData(trackingNumber)
+			return trackingNumber;
 		}
 	};
 
