@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# Where's My Package!?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Where's My Package!? is an app that helps users track packages. (in progress)
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- In progress 
 
-### `npm start`
+## Getting started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone the repo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+git clone https://github.com/Eldadchb/WhereIsMyPackage.git
+```
 
-### `npm test`
+2. Install the server dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install
+```
 
-### `npm run build`
+3. Start development client
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Built with
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](https://reactjs.org) - Front end framework for building user interfaces
+- [Material UI](https://mui.com/) - Components library for React
+- [Firebase](https://firebase.google.com/)
+- [Google Maps Platform](https://mapsplatform.google.com) - Map, Directions and Places information
+- [RapidAPI](https://rapidapi.com/) 
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Improvements are welcome!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Eldad Chidra [Github](https://github.com/eldadchb) - [LinkedIn](https://www.linkedin.com/in/eldad-chidra/)
